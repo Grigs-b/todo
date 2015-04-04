@@ -14,6 +14,9 @@
 		24FB4E5F1AD03527000E7624 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24FB4E5E1AD03527000E7624 /* Images.xcassets */; };
 		24FB4E621AD03527000E7624 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24FB4E601AD03527000E7624 /* LaunchScreen.xib */; };
 		24FB4E6E1AD03527000E7624 /* todoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FB4E6D1AD03527000E7624 /* todoTests.m */; };
+		24FB4E791AD03607000E7624 /* AddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FB4E781AD03607000E7624 /* AddToDoItemViewController.m */; };
+		24FB4E7E1AD0402F000E7624 /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FB4E7B1AD0402F000E7624 /* ToDoItem.m */; };
+		24FB4E7F1AD0402F000E7624 /* ToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FB4E7D1AD0402F000E7624 /* ToDoListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		24FB4E671AD03527000E7624 /* todoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24FB4E6C1AD03527000E7624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24FB4E6D1AD03527000E7624 /* todoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = todoTests.m; sourceTree = "<group>"; };
+		24FB4E771AD03607000E7624 /* AddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddToDoItemViewController.h; path = todo/AddToDoItemViewController.h; sourceTree = "<group>"; };
+		24FB4E781AD03607000E7624 /* AddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddToDoItemViewController.m; path = todo/AddToDoItemViewController.m; sourceTree = "<group>"; };
+		24FB4E7A1AD0402F000E7624 /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToDoItem.h; path = todo/ToDoItem.h; sourceTree = "<group>"; };
+		24FB4E7B1AD0402F000E7624 /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToDoItem.m; path = todo/ToDoItem.m; sourceTree = "<group>"; };
+		24FB4E7C1AD0402F000E7624 /* ToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToDoListTableViewController.h; path = todo/ToDoListTableViewController.h; sourceTree = "<group>"; };
+		24FB4E7D1AD0402F000E7624 /* ToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToDoListTableViewController.m; path = todo/ToDoListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,12 @@
 		24FB4E451AD03527000E7624 = {
 			isa = PBXGroup;
 			children = (
+				24FB4E7A1AD0402F000E7624 /* ToDoItem.h */,
+				24FB4E7B1AD0402F000E7624 /* ToDoItem.m */,
+				24FB4E7C1AD0402F000E7624 /* ToDoListTableViewController.h */,
+				24FB4E7D1AD0402F000E7624 /* ToDoListTableViewController.m */,
+				24FB4E771AD03607000E7624 /* AddToDoItemViewController.h */,
+				24FB4E781AD03607000E7624 /* AddToDoItemViewController.m */,
 				24FB4E501AD03527000E7624 /* todo */,
 				24FB4E6A1AD03527000E7624 /* todoTests */,
 				24FB4E4F1AD03527000E7624 /* Products */,
@@ -220,8 +235,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				24FB4E5A1AD03527000E7624 /* ViewController.m in Sources */,
+				24FB4E7E1AD0402F000E7624 /* ToDoItem.m in Sources */,
 				24FB4E571AD03527000E7624 /* AppDelegate.m in Sources */,
+				24FB4E7F1AD0402F000E7624 /* ToDoListTableViewController.m in Sources */,
 				24FB4E541AD03527000E7624 /* main.m in Sources */,
+				24FB4E791AD03607000E7624 /* AddToDoItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
